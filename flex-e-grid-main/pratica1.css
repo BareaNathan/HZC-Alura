@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    display: grid;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: #444444;
+    padding: 0px;
+    width: 100vw;
+    height: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.cabecalho {
+    background-color: #cc2a2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+
+    grid-column: span 4;
+}
+
+.lateral {
+    background-color: #45cc2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+
+    grid-row: span 3;
+    grid-column: span 1;
+}
+
+.meio {
+    background-color: #2aa6cc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.direita-cima {
+    background-color: #352acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.direita-baixo {
+    background-color: #cc2a96;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+
+    grid-column: span 1;
+    grid-row: span 2;
+}
